@@ -1,0 +1,36 @@
+body{
+    background-color: #5F6F94;
+  }
+  ul{
+    display: flex;
+    background-color: #25316D;
+    list-style-type: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  ul > li {
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  ul > li:hover{
+    color: #fff;
+    background-color: #000;
+    border-radius: 2px;
+  }
+  
+  .active{
+    border-radius: 2px;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .card{
+    margin: 5px;
+    /* height: 300px; */
+  }
+  
+  /* ul > li:nth-child(3){
+    flex: 1;
+  } */
